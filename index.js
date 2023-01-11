@@ -28,7 +28,7 @@ paragraph.innerHTML = "Acabo de crear este párrafo";
 console.log(paragraph)
 console.log(paragraph.innerText)
 
-// 4. Estilos
+// 3. Estilos
 
         // Ejemplo 1:
 
@@ -51,7 +51,7 @@ changePart2.style.setProperty('font-size', "2rem")
 
 
 
-// 5. Atributos
+// 4. Atributos
 
 let getImg = document.querySelector("img");
 
