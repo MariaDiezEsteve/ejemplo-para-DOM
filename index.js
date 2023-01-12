@@ -4,7 +4,7 @@ console.log("Hello World")
 // 1. Leer: innerText
 
 let titleDOM = document.querySelector("h1")
-console.log(titleDOM)
+// console.log(titleDOM)
 console.log(titleDOM.innerText)
 
 
@@ -16,17 +16,6 @@ const title = document.getElementById("title2");
 
 title.innerHTML = "Fruit";
 
-console.log(title)
-console.log(title.innerText)
-
-        // Ejemplo 2
-
-const paragraph = document.createElement("p"); 
-
-paragraph.innerHTML = "Acabo de crear este párrafo";
-
-console.log(paragraph)
-console.log(paragraph.innerText)
 
 // 3. Estilos
 
@@ -36,10 +25,10 @@ let changeColor = document.getElementById("title1");
 changeColor.style.color = "white";
 changeColor.style.backgroundColor = "black";
 
-let changeDiv = document.getElementById("estilos");
-changeDiv.style.borderRadius = '50%';
-changeDiv.style.display = 'flex';
-changeDiv.style.justifyContent = 'center';
+ let changeDiv = document.getElementById("estilos");
+ changeDiv.style.borderRadius = '50%';
+ changeDiv.style.display = 'flex';
+ changeDiv.style.justifyContent = 'center';
 
         // Ejemplo 2:
 
@@ -53,24 +42,26 @@ changePart2.style.setProperty('font-size', "2rem")
 
 // 4. Atributos
 
-let getImg = document.querySelector("img");
+let patata = document.querySelector("img");
 
         // 1. Ejemplo: src
 
-getImg.getAttribute("src");
+let imagen = patata.getAttribute("src");
+console.log(imagen)
 
-let newImg = getImg.setAttribute("src", "sincodigosinrazon.png")
+patata.setAttribute("src", "sincodigosinrazon.png")
 
         // 2. Ejemplo: alt
 
-getImg.getAttribute("alt");
+patata.getAttribute("alt");
 
-let newAlt = getImg.setAttribute("alt", "sin codigo no hay razon")
+let newAlt = patata.setAttribute("alt", "sin codigo no hay razon")
+
 
         // 3. Ejemplo: estilos
 
-let getStyle = document.getElementById("estilos")
+let kiwi = document.getElementById("estilos")
 
-getStyle.getAttribute("style");
-
-let newStyle = getStyle.setAttribute("style", "text-align: center" )
+kiwi.getAttribute("style");
+        
+kiwi.setAttribute("style", "text-align: center" )
