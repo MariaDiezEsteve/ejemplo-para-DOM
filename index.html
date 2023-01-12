@@ -4,47 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Objetos del DOM</title>
 </head>
 <body>
 
 
   <!-- 1. Leer: innerText -->
+  <!-- 2. Modificar: innerHTML -->
 
   <div id="container">
-        <h1 id="title1">Fruits and veggies</h1>
+            <h3> 1. Ejemplo: innerText e innerHTML </h3>
+        <h1 id="title1">Frutas y Verduras</h1>
             <div class="list-fruits">
                 <h2 id="title2"></h2>
                 <ul class="fruits">
-                    <li class="fruit-item">Pear</li>
-                    <li class="fruit-item">Grapes</li>
-                    <li class="fruit-item">Strawberry</li>
-                    <li class="fruit-item">Plum</li>
-                    <li class="fruit-item">Guava</li>
+                    <li class="fruit-item">Pera</li>
+                    <li class="fruit-item">Uva</li>
+                    <li class="fruit-item">Fresa</li>
+                    <li class="fruit-item">Manzana</li>
+                    <li class="fruit-item">Piña</li>
+                </ul>
+            </div>
+            <div class="list-vegie">
+                <h2 id="title3"></h2>
+                <ul class="fruits">
+                    <li class="fruit-item">Pimiento</li>
+                    <li class="fruit-item">Cebollla</li>
+                    <li class="fruit-item">Patata</li>
+                    <li class="fruit-item">Brocoli</li>
                 </ul>
             </div>
     </div>
 
 
-    <!-- 2. Modificar: innerHTML -->
-
     <!-- 3. Estilo -->
 
-    <div id="estilos" style="height: 100px;
-                            width: 100px;
+
+    <div id="cambiando-estilos">
+        <h3> 2. Ejemplo: Cambio por estilos </h3>
+    </div>
+
+    <div id="estilos" style="height: 300px;
+                            width: 300px;
                             border: 4px solid red;">
+                            
                 <p id="part1"> Cambiando Estilos </p>
                 <p id="part2"> Con DOM</p>
     </div>
 
     <!-- 4. Atributo  -->
 
+    <div id="cambiando-estilos">
+        <h3> 3. Ejemplo: Cambio por atributos </h3>
+    </div>
+
     <div id="atributo">
         <img src="veocodigo.png" alt="Veo codigo sin gente">
     </div>
 
+    <!-- 5. classList -->
 
-<script src="index.js"></script>
+    <div id="cambiando-estilos">
+        <h3> 4. Ejemplo: classList </h3>
+    </div>
+
+    <div id="lista-clases">
+        <p>Esto es un ejemplo</p>
+    </div>
+
+   
+    <div id="cambiando-estilos">
+        <h3> 5. Ejemplo: value </h3>
+    </div>
+
+    <input type="text" value="texto por defecto" name="nombre" id="nombre" placeholder="name"> 
+
+    <script src="index.js"></script>
 
 </body>
 </html>

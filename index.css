@@ -1,0 +1,25 @@
+#container{
+    margin: 10rem;
+}
+
+
+#estilos {
+    margin: 10rem;
+}
+
+#atributo {
+    margin: 10rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+#cambiando-estilos{
+    margin: 10rem 10rem -10rem 10rem;
+}
+
+.mystyle {
+    background-color: coral;
+    font-size: 2rem;
+}
