@@ -2,6 +2,10 @@
     margin: 10rem;
 }
 
+.container {
+    margin: 10rem;
+}
+
 
 #estilos {
     margin: 10rem;
@@ -17,6 +21,11 @@ h3 {
 
 #cambiando-estilos{
     margin: 10rem 10rem -10rem 10rem;
+}
+
+#cambiando-estilos1{
+    margin: 1rem;
+    margin-left: 5rem;
 }
 
 .mystyle {

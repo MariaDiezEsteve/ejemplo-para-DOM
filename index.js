@@ -4,8 +4,8 @@ console.log("Hello World")
 // 1. Leer: innerText
 
 let title = document.querySelector("h1")
-console.log (title)
-console.log (title.innerText)
+// console.log (title)
+// console.log (title.innerText)
 
 
 // 2. Modificar: innerHTML
@@ -13,10 +13,10 @@ console.log (title.innerText)
         // Ejemplo 1
 
 const title2 = document.getElementById("title2");
-title2.innerHTML = "Fruta";
+// title2.innerHTML = "Fruta";
 
 const title3 = document.getElementById("title3");
-title3.innerHTML = "Verduras";
+// title3.innerHTML = "Verduras";
 
 
 // 3. Estilos
@@ -49,7 +49,7 @@ let patata = document.querySelector("img");
         // 1. Ejemplo: src
 
 let imagen = patata.getAttribute("src");
-console.log(imagen)
+// console.log(imagen)
 
 // patata.setAttribute("src", "sincodigosinrazon.png")
 
@@ -64,7 +64,7 @@ patata.getAttribute("alt");
 
 let kiwi = document.getElementById("estilos")
 
-kiwi.getAttribute("style");
+// kiwi.getAttribute("style");
         
 // kiwi.setAttribute("style", "text-align: center" )
 
@@ -73,7 +73,7 @@ kiwi.getAttribute("style");
 
 let ejemplo = document.getElementById("lista-clases")
 
-ejemplo.classList.add("mystyle")
+// ejemplo.classList.add("mystyle")
 
 
 console.log(ejemplo)
@@ -81,4 +81,5 @@ console.log(ejemplo)
 // 6. value
 
 let valor = document.getElementById("nombre").value;
-console.log(valor)
+// console.log(valor);
+
